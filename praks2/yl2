@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# muljed
+#
+echo  "Kert Kalda " # väljasta enda nimi
+echo  "ISP16 " # väljestab rühma
+echo  "Antud aine tundub mulje huvitav " # väljestab enda mulje
+echo  "Antud mulje on hea, ning olen märgataval arenenud " # väjlastab edasijõudmise
+#
+# skripti lõpp
+
