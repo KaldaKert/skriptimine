@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+echo "1 - lihtsalt loon faili vastava nimega"
+echo "2 - loon vastavalt nimega faili ja teen lahti nano tekstiredaktoriga"
+echo "3 - väljun antud programmist"
+echo
+echo -n "Sisesta oma valik:"
+read valik
+#
+if [ $valik -eq 1 ]; then
+echo "sisesta faili nimi"
+read nimi
+touch $nimi
+elif [ $valik -eq 2 ]; then
+echo "sisesta faili nimi"
+read nimi
+touch $nimi
+nano $nimi
+elif [ $fali -eq 3 ]; then
+exit
+else
+echo "Palun kasuta valik 1-3"
+fi
