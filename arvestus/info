@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+#Nimi:Kert Kalda
+#Skripti nimi: info
+#Skripti ul kirjeldus: Skript tervitab sisselogitud kasutajat, kuvab kuupäeva ja aja.
+#
+kasutaja=`whoami`
+#väljastatakse kasutaja nimi
+echo "Tere!, $kasutaja"
+#väljastatakse kellaaeg ja kuupäev
+kell=`date +'%H:%M'`
+kuupaev=`date +'%D'`
+echo "Täna on $kuupaev kell $kell"
